@@ -1,0 +1,65 @@
+/* Please note, these media queries are very basic */
+
+/* Navbar Starts Here */
+.navbar .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px dotted #444;
+}
+/* Navbar Ends Here */
+
+/* Showcase Starts Here */
+.showcase .showcase-content {
+  padding-top: 60px;
+}
+/* Showcase Ends Here */
+
+/* Home Info Starts Here */
+.home-info img {
+  display: none;
+}
+
+.home-info .history {
+  width: 100%;
+}
+/* Home Info Ends Here */
+
+/* Boxes */
+#features {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  padding: none;
+  align-items: center;
+}
+/* Boxes End Here */
+
+/* About Page Starts Here */
+#about-info {
+  width: 100%;
+  display: flex;
+}
+
+.about-info .info-right img {
+  margin: none;
+  width: 100%;
+}
+
+.l-heading {
+  text-align: center;
+}
