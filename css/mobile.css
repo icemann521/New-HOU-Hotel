@@ -1,7 +1,6 @@
 /* Please note, these media queries are very basic */
 
 /* Navbar Starts Here */
-
 .navbar .container {
   display: flex;
   flex-direction: column;
@@ -25,14 +24,29 @@
 #showcase {
   height: 100%;
 }
+.showcase .container {
+  max-width: 600px;
+}
+
 .showcase .showcase-content {
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
+.showcase .showcase-content h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+#showcase .showcase-content p {
+  font-size: 1rem;
+  padding-bottom: 20px;
+  line-height: 1.7;
+}
 /* Showcase Ends Here */
 
 /* Home Info Starts Here */
-.home-info img {
+#home-info .home-info img {
   display: none;
 }
 

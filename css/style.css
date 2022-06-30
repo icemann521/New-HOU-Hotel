@@ -177,6 +177,7 @@ img {
 
 .home-info h1 {
   font-size: 1.5rem;
+  line-height: 1.2em;
 }
 
 .home-info img {
@@ -213,6 +214,14 @@ img {
 
 .box i {
   margin-bottom: 10px;
+}
+
+.box h3 {
+  font-size: 20px;
+}
+
+.box p {
+  font-size: 16px;
 }
 /* Features End Here */
 
