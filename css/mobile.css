@@ -83,3 +83,6 @@
 .l-heading {
   text-align: center;
 }
+
+@media screen and (max-width: 730px) {
+}
